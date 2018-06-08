@@ -15,7 +15,17 @@ _This website contained a tool that will replace specify numbers to word "Beep",
 * _Fill in a number of your choice in the submit field_
 * _Your result will display after submitting the number_
 
+## Spec
 
+* _Numbers that contain a 0 are replaced (all digits) with "Beep!"_
+* _Numbers that contain a 1 are replaced (all digits) with "Boop!"_
+* _Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that."_
+
+| Input           | Expected Output                             |
+| --------------- |---------------------------------------------|
+| 0               | Beep                                        |
+| 1               | Boop                                        |
+| 9               | I'm sorry, Dave. I'm afraid I can't do that.|
 
 ## Support and contact details
 
