@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 // Business Logic
 var convert = function(number){
-  var result = "";
+  var string = "";
 
   if ((parseInt(number)) % 3 === 0) {
     return "I'm sorry, Dave. I'm afraid I can't do that.";
@@ -35,5 +35,10 @@ var convert = function(number){
     };
 
   };
-  return result = makeArrays
+
+  for (i = 0; i < makeArrays.length; i++){
+    string = string.concat(makeArrays[i]);
+  };
+
+  return string;
 };
