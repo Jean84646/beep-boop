@@ -24,9 +24,10 @@ _This website contained a tool that will replace specify numbers to word "Beep",
 | Input           | Expected Output                             |
 | --------------- |---------------------------------------------|
 | 0               | Beep                                        |
-| 10              | 1Beep                                       |
 | 1               | Boop                                        |
-| 10              | Boop0                                       |
+| 01              | BeepBoop                                    |
+| 10              | BoopBeep                                    |
+| 1102            | BoopBoopBeep2                               |
 | 9               | I'm sorry, Dave. I'm afraid I can't do that.|
 
 ## Support and contact details
