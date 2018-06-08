@@ -1,13 +1,46 @@
 h1 {
-
+  /* color: #1e2126; */
+  color: #213251;
+  font-size: 65px;
 }
 
 body {
+background-image: url(../img/r2d2-bg.jpg);
+background-size: cover;
+color: #202f4c;
+font-size: 30px;
+}
 
+.container {
+  padding-top: 200px;
+  margin-left: 5%;
+  width: 55%;
+}
+
+.form-control {
+  font-size:30px;
+  width: 80%;
+  padding: 25px;
+  border-radius: 5em;
+}
+
+#submit-btn{
+  width: 80%;
+}
+
+.btn {
+  float: right;
+  font-size: 18px;
 }
 
 #output-area {
   display: none;
   margin: 25px;
-  font-size: 20px;
+  color: #20304c;
+  font-size: 40px;
+  width: 80%;
+}
+
+img {
+  float: right;
 }
