@@ -1,6 +1,6 @@
 # _Beep Boop_
 
-#### _Beep Boop number project, 06/08/2018_
+#### _Beep Boop independent project #3, 06/08/2018_
 
 #### By _**Jean Jia**_
 
