@@ -3,6 +3,10 @@ h1 {
   font-size: 65px;
 }
 
+#records {
+  width: 10%;
+}
+
 body {
 background-color: #767777;
 background-image: url(../img/r2d2-bg.jpg);
