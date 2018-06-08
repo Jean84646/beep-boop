@@ -23,7 +23,7 @@ var convert = function(number){
   var numArrays = number.split("");
   var makeArrays = [];
 
-  for (var i = 0; i <= numArrays.length; i++) {
+  for (var i = 0; i < numArrays.length; i++) {
     if (numArrays[i] === "0") {
       numArrays[i] = "Beep";
       makeArrays.push(numArrays[i]);
