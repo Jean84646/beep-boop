@@ -1,5 +1,4 @@
 h1 {
-  /* color: #1e2126; */
   color: #213251;
   font-size: 65px;
 }
@@ -7,6 +6,8 @@ h1 {
 body {
 background-image: url(../img/r2d2-bg.jpg);
 background-size: cover;
+background-color: #6a6d72;
+background-repeat: no-repeat;
 color: #202f4c;
 font-size: 30px;
 }
